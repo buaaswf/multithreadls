@@ -30,7 +30,7 @@
 //#define input2   "K:\\sdf\\volume\\clean\\clean\\ep\\20140414\\"
 //#define input2 "D:\\good\\"
 //#define  input2 "K:\\sdf\\volume\\clean\\clean\\ep\\clean\\"
-#define input2 "F:\\colonData\\Seg with Drawing\\clean\\"
+#define input2 "D:\\data\\clean\\"
 //"D:\\20140511aotuo\\"
 //#define input2 "D:\\swfdata20140420\\"
 //#define input2	"K:\\sdf\\volume\\clean\\clean\\3041P\\" //		//short

@@ -358,9 +358,9 @@ void ThreeDim_LevelSet::outerwallauto(Raw &phi,Raw &g,double lambda,double mu,do
 {
 
 	this->initialg(g);
-	for (int i=0; i < 7; i++)
+	for (int i=0; i < 5; i++)
 	{
-		phi=this->minimal_surface(phi,g,2*lambda,mu,-2*alfa,epsilon,timestep,10,potentialFunction);
+		phi=this->minimal_surface(phi,g,2*lambda,mu,2*alfa,epsilon,timestep,10,potentialFunction);
 		cout << "outer wall auto stop iter = " << i <<endl;
 	}
 
