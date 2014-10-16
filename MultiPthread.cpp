@@ -72,7 +72,7 @@ void *singlecColonSeg(void *para)
 	
 	test.writeImageName(*initial, outdir);
 	
-	ls->outerwallauto(*initial, *input, 5, 0.1, -3, 1.5, 1, 10, pt);
+	ls->outerwall(*initial, *input, 5, 0.1, -3, 1.5, 1, 10, pt);
 	PIXTYPE *data = initial->getdata();
 
 	int count = 0;
